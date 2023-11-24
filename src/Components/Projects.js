@@ -12,7 +12,7 @@ export default function Projects() {
   return (
     <section id="projects">
       <div className="container text-center mt-5 mb-5">
-        <div className="mt-5 mb-5">
+        <div>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="30"
