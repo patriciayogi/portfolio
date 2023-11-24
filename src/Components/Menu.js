@@ -14,8 +14,14 @@ export default function Menu() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav>
             <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#link">Link</Nav.Link>
-            <NavDropdown title="Dropdown" id="basic-nav-dropdown">
+            <Nav.Link href="https://www.linkedin.com/in/patriciayogi/">
+              Linkedin
+            </Nav.Link>
+            <Nav.Link href="https://github.com/patriciayogi">Github</Nav.Link>
+            <Nav.Link href="https://koalendar.com/e/meet-with-patricia-yogi/">
+              Let's meet
+            </Nav.Link>
+            {/*  <NavDropdown title="Dropdown" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
                 Another action
@@ -25,7 +31,7 @@ export default function Menu() {
               <NavDropdown.Item href="#action/3.4">
                 Separated link
               </NavDropdown.Item>
-            </NavDropdown>
+            </NavDropdown> */}
           </Nav>
         </Navbar.Collapse>
       </Container>
