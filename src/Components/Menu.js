@@ -13,7 +13,7 @@ export default function Menu() {
         <Navbar.Toggle />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav>
-            <Nav.Link href="#home">Home</Nav.Link>
+            {/* <Nav.Link href="#home">Home</Nav.Link> */}
             <Nav.Link href="https://www.linkedin.com/in/patriciayogi/">
               Linkedin
             </Nav.Link>
